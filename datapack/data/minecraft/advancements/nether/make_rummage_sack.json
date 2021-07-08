@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:410001}"
+    },
+    "title": {
+      "text": "Carried Capacity"
+    },
+    "description": {
+      "text": "Craft a Rummage Sack with blaze powder, a chest, five leather, and two string"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "criteria": {
+    "craft_it": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "craft_it"
+    ]
+  ]
+}

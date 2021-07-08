@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "MrMcAwesumz/Ravioli",
+    "description": "",
+    "icon": {
+   "item": "minecraft:player_head",
+   "nbt": "{SkullOwner:{Name: \"MrMcAwesumz\", Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE1ODQ5Mzg3OTc5OTcsInByb2ZpbGVJZCI6IjQ1MzdmYzMwZTcyZDRmZjhiNDM5NTgyOTAwM2EzYzNkIiwicHJvZmlsZU5hbWUiOiJNck1jQXdlc3VteiIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NzYyZmNjNmFkMjRkM2IyYjJkNjcxNWYyNDM0MTliOGMxMDhjZGVjZGUyNGQ3M2Q5ZTBjOTEyNDk1NzA4OWYzIn19fQ==\"}]}}}"
+   },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

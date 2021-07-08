@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:410001}"
+    },
+    "title": "Rummage Sack",
+    "description": "Free up your inventory with a sack!",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:mrmcawesumz",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

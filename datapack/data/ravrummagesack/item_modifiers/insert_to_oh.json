@@ -1,0 +1,13 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": "this",
+      "ops": [
+        {
+          "source": "SelectedItem",
+          "target": "\"rav.sackcontents\"",
+          "op": "append"
+        }
+      ]
+    }
+  ]

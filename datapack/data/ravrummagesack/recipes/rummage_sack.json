@@ -1,0 +1,26 @@
+  
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      "scs",
+      "lbl",
+      "lll"
+    ],
+    "key": {
+      "s": {
+        "item": "minecraft:string"
+      },
+      "l": {
+        "item": "minecraft:leather"
+      },
+      "b": {
+        "item": "minecraft:blaze_powder"
+      },
+      "c": {
+        "item": "minecraft:chest"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

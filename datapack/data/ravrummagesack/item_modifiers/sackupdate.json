@@ -1,0 +1,16 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rav:rummagesack"
+      },
+      "ops": [
+        {
+          "source": "sackcopy",
+          "target": "\"rav.sackcontents\"",
+          "op": "replace"
+        }
+      ]
+    }
+  ]

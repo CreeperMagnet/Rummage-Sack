@@ -1,0 +1,49 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "Hold in the offhand.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Drop items to add them.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Sneak to cycle items for removal.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Items:",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "selector": "@e[type=item,tag=rav.sackslot4,limit=1,sort=nearest]",
+          "color": "blue"
+        },
+        {
+          "selector": "@e[type=item,tag=rav.sackslot3,limit=1,sort=nearest]",
+          "color": "blue"
+        },
+        {
+          "selector": "@e[type=item,tag=rav.sackslot2,limit=1,sort=nearest]",
+          "color": "blue"
+        },
+        {
+          "selector": "@e[type=item,tag=rav.sackslot1,limit=1,sort=nearest]",
+          "color": "blue"
+        },
+        {
+          "selector": "@e[type=item,tag=rav.sackslot0,limit=1,sort=nearest]",
+          "color": "blue"
+        }
+      ],
+      "replace": true
+    }
+  ]

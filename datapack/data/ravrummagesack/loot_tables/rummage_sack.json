@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:410001,rav.rummage:\"sack\",rav.sackcontents:[]}"
+                "tag": "{RepairCost:100,Unbreakable:1b,HideFlags:4,CustomModelData:410001,rav.rummage:\"sack\",rav.sackcontents:[]}"
               },
               {
                 "function": "minecraft:set_name",

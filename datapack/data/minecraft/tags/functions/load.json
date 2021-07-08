@@ -1,3 +1,5 @@
 {
-    "values": ["ravrummagesack:on_load"]
+  "values": [
+    "the_sack:load"
+  ]
 }

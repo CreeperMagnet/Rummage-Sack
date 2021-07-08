@@ -1,0 +1,48 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost:100,Unbreakable:1b,HideFlags:4,CustomModelData:410001,the_sack:{id:\"rummage_sack\",contents:[]}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "translate": "item.the_sack.rummage_sack",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "translate": "item.the_sack.rummage_sack.lore.0",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.the_sack.rummage_sack.lore.1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.the_sack.rummage_sack.lore.2",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

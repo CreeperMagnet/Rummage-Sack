@@ -1,3 +1,5 @@
 {
-    "values": ["ravrummagesack:every_tick"]
+  "values": [
+    "the_sack:tick"
+  ]
 }

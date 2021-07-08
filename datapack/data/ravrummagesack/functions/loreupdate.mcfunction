@@ -16,17 +16,17 @@ data modify storage rav:rummagesack lorecheck2 set from entity @s Inventory[{Slo
 data modify storage rav:rummagesack lorecheck3 set from entity @s Inventory[{Slot:-106b}].tag.display.Lore[-3]
 data modify storage rav:rummagesack lorecheck4 set from entity @s Inventory[{Slot:-106b}].tag.display.Lore[-4]
 data modify storage rav:rummagesack lorecheck5 set from entity @s Inventory[{Slot:-106b}].tag.display.Lore[-5]
-execute store success score rav1 rav.rumm_lore run data modify storage rav:rummagesack lorecheck1 set value '{"color":"blue","text":""}'
-execute store success score rav2 rav.rumm_lore run data modify storage rav:rummagesack lorecheck2 set value '{"color":"blue","text":""}'
-execute store success score rav3 rav.rumm_lore run data modify storage rav:rummagesack lorecheck3 set value '{"color":"blue","text":""}'
-execute store success score rav4 rav.rumm_lore run data modify storage rav:rummagesack lorecheck4 set value '{"color":"blue","text":""}'
-execute store success score rav5 rav.rumm_lore run data modify storage rav:rummagesack lorecheck5 set value '{"color":"blue","text":""}'
+execute store success score rav1 the_sack.lore run data modify storage rav:rummagesack lorecheck1 set value '{"color":"blue","text":""}'
+execute store success score rav2 the_sack.lore run data modify storage rav:rummagesack lorecheck2 set value '{"color":"blue","text":""}'
+execute store success score rav3 the_sack.lore run data modify storage rav:rummagesack lorecheck3 set value '{"color":"blue","text":""}'
+execute store success score rav4 the_sack.lore run data modify storage rav:rummagesack lorecheck4 set value '{"color":"blue","text":""}'
+execute store success score rav5 the_sack.lore run data modify storage rav:rummagesack lorecheck5 set value '{"color":"blue","text":""}'
 data modify storage rav:rummagesack loreupdate set from entity @s Inventory[{Slot:-106b}].tag.display.Lore
-execute if score rav1 rav.rumm_lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
-execute if score rav2 rav.rumm_lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
-execute if score rav3 rav.rumm_lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
-execute if score rav4 rav.rumm_lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
-execute if score rav5 rav.rumm_lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
+execute if score rav1 the_sack.lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
+execute if score rav2 the_sack.lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
+execute if score rav3 the_sack.lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
+execute if score rav4 the_sack.lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
+execute if score rav5 the_sack.lore matches 0 run data remove storage rav:rummagesack loreupdate[4]
 # If no item lore to display, remove item label
 execute unless data storage rav:rummagesack loreupdate[4] run data remove storage rav:rummagesack loreupdate[3]
 # Write stored lore to item

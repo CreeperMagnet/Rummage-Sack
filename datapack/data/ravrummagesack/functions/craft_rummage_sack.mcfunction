@@ -1,4 +1,4 @@
-scoreboard players reset @s rav.rumm_craft
+scoreboard players reset @s the_sack.craft
 clear @s knowledge_book
 stopsound @s * minecraft:entity.item.pickup
 

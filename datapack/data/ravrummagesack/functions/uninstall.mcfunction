@@ -1,8 +1,8 @@
-scoreboard objectives remove rav.rumm_craft
-scoreboard objectives remove rav.rumm_drop
-scoreboard objectives remove rav.rumm_shuff
-scoreboard objectives remove rav.rumm_slots
-scoreboard objectives remove rav.rumm_sneak
+scoreboard objectives remove the_sack.craft
+scoreboard objectives remove the_sack.drop
+scoreboard objectives remove the_sack.shuff
+scoreboard objectives remove the_sack.slots
+scoreboard objectives remove the_sack.sneak
 tag @e[type=item,tag=!global.ignore] remove rav.rummdrop
 data remove storage rav:rummagesack lorecheck1
 data remove storage rav:rummagesack lorecheck2

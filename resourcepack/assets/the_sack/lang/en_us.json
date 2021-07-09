@@ -1,9 +1,10 @@
 {
+  "pack.the_sack": "Rummage Sack",
   "item.the_sack.rummage_sack": "Rummage Sack",
   "item.the_sack.rummage_sack.display_item": "%s x%s",
-  "item.the_sack.rummage_sack.lore.0": "Hold in the offhand.",
-  "item.the_sack.rummage_sack.lore.1": "Drop items to add them.",
-  "item.the_sack.rummage_sack.lore.2": "Sneak to cycle items for removal.",
-  "item.the_sack.rummage_sack.lore.3": "",
-  "item.the_sack.rummage_sack.banned_item": "You may not put that item within a rummage sack."
+  "item.the_sack.rummage_sack.lore.0": "Hold in offhand and drop items to fill",
+  "item.the_sack.rummage_sack.lore.1": "Right-click in mainhand to empty",
+  "item.the_sack.rummage_sack.banned_item": "You may not put that item within a rummage sack.",
+  "advancements.the_sack.make_rummage_sack.title": "Carried Capacity",
+  "advancements.the_sack.make_rummage_sack.description": "Craft a Rummage Sack with an ender eye, a chest, five leather, and two string"
 }

@@ -5,7 +5,7 @@
     "equipment": {
       "mainhand": {
         "item": "minecraft:warped_fungus_on_a_stick",
-        "nbt": "{the_sack:{id:\"rummage_sack\"}}"
+        "nbt": "{the_sack:{id:\"rummage_sack\",contents:[{}]}}"
       }
     }
   }

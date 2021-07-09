@@ -14,7 +14,7 @@
             "storage": "the_sack:storage"
           }
         ],
-        "color": "blue",
+        "color": "white",
         "italic": false
       }
     ],
@@ -47,7 +47,7 @@
             "storage": "the_sack:storage"
           }
         ],
-        "color": "light_purple",
+        "color": "aqua",
         "italic": false
       }
     ],

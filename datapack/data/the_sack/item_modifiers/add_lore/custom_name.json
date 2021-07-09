@@ -5,7 +5,7 @@
     "lore": [
       {
         "translate": "item.the_sack.rummage_sack.display_item",
-        "color": "blue",
+        "color": "white",
         "italic": false,
         "with": [
           {
@@ -40,7 +40,7 @@
     "lore": [
       {
         "translate": "item.the_sack.rummage_sack.display_item",
-        "color": "light_purple",
+        "color": "aqua",
         "italic": false,
         "with": [
           {

@@ -34,9 +34,9 @@
                     "italic": false
                   },
                   {
-                    "translate": "item.the_sack.rummage_sack.lore.2",
-                    "color": "gray",
-                    "italic": false
+                    "translate": "pack.the_sack",
+                    "color": "#623220",
+                    "italic": true
                   }
                 ]
               }

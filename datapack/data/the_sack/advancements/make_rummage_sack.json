@@ -5,11 +5,19 @@
       "nbt": "{CustomModelData:410001}"
     },
     "title": {
-      "text": "Carried Capacity"
+      "translate": "advancements.the_sack.make_rummage_sack.title"
     },
-    "description": {
-      "text": "Craft a Rummage Sack with blaze powder, a chest, five leather, and two string"
-    },
+    "description": [
+      {
+        "translate": "advancements.the_sack.make_rummage_sack.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.the_sack",
+        "color": "#623220",
+        "italic": true
+      }
+    ],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

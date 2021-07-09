@@ -1,4 +1,4 @@
-  
+
 {
     "type": "crafting_shaped",
     "pattern": [
@@ -14,7 +14,7 @@
         "item": "minecraft:leather"
       },
       "b": {
-        "item": "minecraft:blaze_powder"
+        "item": "minecraft:ender_eye"
       },
       "c": {
         "item": "minecraft:chest"

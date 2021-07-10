@@ -7,3 +7,4 @@ execute if entity @s[scores={the_sack.click=1..},predicate=the_sack:holding_sack
 scoreboard players reset @s the_sack.drop
 scoreboard players reset @s the_sack.craft
 scoreboard players reset @s the_sack.click
+recipe take @s the_sack:rummage_sack

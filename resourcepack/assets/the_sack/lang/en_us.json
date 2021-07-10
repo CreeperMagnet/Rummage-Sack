@@ -6,5 +6,7 @@
   "item.the_sack.rummage_sack.lore.1": "Right-click in mainhand to empty",
   "item.the_sack.rummage_sack.banned_item": "You may not put that item within a rummage sack.",
   "advancements.the_sack.make_rummage_sack.title": "Carried Capacity",
-  "advancements.the_sack.make_rummage_sack.description": "Craft a Rummage Sack with an ender eye, a chest, five leather, and two string"
+  "advancements.the_sack.make_rummage_sack.description": "Craft a Rummage Sack with an ender eye, a chest, five leather, and two string",
+  "subtitles.the_sack.item.rummage_sack.fill": "Rummage sack filled",
+  "subtitles.the_sack.item.rummage_sack.empty": "Rummage sack emptied"
 }
